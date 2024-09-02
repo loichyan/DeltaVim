@@ -1,5 +1,6 @@
 return {
-  "echasnovski/mini.ai",
+  "mini.ai",
+  dev = true,
   event = "User AstroFile",
   dependencies = { "nvim-treesitter-textobjects" },
   opts = function()

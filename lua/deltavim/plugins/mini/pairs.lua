@@ -1,6 +1,7 @@
 ---@type LazyPluginSpec
 return {
-  "echasnovski/mini.pairs",
+  "mini.pairs",
+  dev = true,
   event = "User AstroFile",
   opts = {
     modes = { insert = true, command = false, terminal = false },

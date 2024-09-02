@@ -1,6 +1,8 @@
 ---@type LazyPluginSpec
 return {
-  "echasnovski/mini.comment",
+  "mini.comment",
+  dev = true,
+  lazy = true,
   dependencies = { { "nvim-ts-context-commentstring", optional = true } },
   keys = function(self)
     local mappings = require("lazy.core.plugin").values(self, "opts", false).mappings or {}
